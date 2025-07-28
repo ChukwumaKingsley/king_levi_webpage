@@ -33,7 +33,7 @@ const setupTable = (populationData, employmentData) => {
     } else if (employmentPercent < 25) {
       row.style.backgroundColor = "#ff9e9e";
     } else {
-      row.style.backgroundColor = index % 2 === 0 ? "#f2f2f2" : "#ffffff";
+      row.style.backgroundColor = index % 2 === 1 ? "#f2f2f2" : "#ffffff";
     }
 
     row.innerHTML = `
